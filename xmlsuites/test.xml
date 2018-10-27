@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameter test Suite" verbose="1">
+    <!-- This parameter will be passed to every test in this suite -->
+    <parameter name="browser" value="chrome" />
+    <parameter name="url" value="https://www.realtor.com/" />
+    <parameter name="wait" value="10" />
+    <test name="Example">
+        <classes>
+            <class name="com.selenium.cases.SearchARandomApartmentAndComparePrice">
+                <methods>
+                    <include name="searchARandomApartmentAndComparePrice" />
+                </methods>   
+            </class>
+        </classes>
+    </test>
+ </suite>   

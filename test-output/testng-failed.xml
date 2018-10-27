@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameter test Suite]">
+  <parameter name="wait" value="10"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.realtor.com/"/>
+  <test name="Example(failed)">
+    <classes>
+      <class name="com.selenium.cases.Example">
+        <methods>
+          <include name="searchApartments"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.selenium.cases.Example -->
+    </classes>
+  </test> <!-- Example(failed) -->
+</suite> <!-- Failed suite [Parameter test Suite] -->

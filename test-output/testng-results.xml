@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parameter test Suite" duration-ms="49067" started-at="2018-10-26T20:19:05Z" finished-at="2018-10-26T20:19:55Z">
+    <groups>
+    </groups>
+    <test name="Example" duration-ms="49067" started-at="2018-10-26T20:19:05Z" finished-at="2018-10-26T20:19:55Z">
+      <class name="com.selenium.cases.Example">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, int)[pri:0, instance:com.selenium.cases.Example@1c7cbad]" name="setup" is-config="true" duration-ms="16711" started-at="2018-10-26T13:19:05Z" finished-at="2018-10-26T13:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.realtor.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchApartments()[pri:0, instance:com.selenium.cases.Example@1c7cbad]" name="searchApartments" duration-ms="31152" started-at="2018-10-26T13:19:22Z" finished-at="2018-10-26T13:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchApartments -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.selenium.cases.Example@1c7cbad]" name="teardown" is-config="true" duration-ms="1156" started-at="2018-10-26T13:19:53Z" finished-at="2018-10-26T13:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.selenium.cases.Example -->
+    </test> <!-- Example -->
+  </suite> <!-- Parameter test Suite -->
+</testng-results>
